@@ -1,3 +1,4 @@
+////////////////////////////////TimersDashboard////////////////////////////////////
 class TimersDashboard extends React.Component {
   render() {
     return (
@@ -10,7 +11,13 @@ class TimersDashboard extends React.Component {
     );
   }
 }
-
+////////////////////////////////TimersDashboard////////////////////////////////////
+//
+//
+//
+//
+//
+////////////////////////////////ToggleableTimerForm////////////////////////////////////
 class ToggleableTimerForm extends React.Component {
   render() {
     if (this.props.isOpen) {
@@ -26,7 +33,13 @@ class ToggleableTimerForm extends React.Component {
     }
   }
 }
-
+////////////////////////////////ToggleableTimerForm////////////////////////////////////
+//
+//
+//
+//
+//
+////////////////////////////////EditableTimerList////////////////////////////////////
 class EditableTimerList extends React.Component {
   render() {
     return (
@@ -49,6 +62,13 @@ class EditableTimerList extends React.Component {
     );
   }
 }
+////////////////////////////////EditableTimerList////////////////////////////////////
+//
+//
+//
+//
+//
+////////////////////////////////EditableTimer////////////////////////////////////
 
 class EditableTimer extends React.Component {
   render() {
@@ -68,6 +88,13 @@ class EditableTimer extends React.Component {
     }
   }
 }
+////////////////////////////////EditableTimer////////////////////////////////////
+//
+//
+//
+//
+//
+////////////////////////////////Timer////////////////////////////////////
 
 class Timer extends React.Component {
   render() {
@@ -94,7 +121,13 @@ class Timer extends React.Component {
     );
   }
 }
-
+////////////////////////////////Timer////////////////////////////////////
+//
+//
+//
+//
+//
+////////////////////////////////TimerForm////////////////////////////////////
 class TimerForm extends React.Component {
   render() {
     const submitText = this.props.title ? "Update" : "Create";
@@ -120,5 +153,6 @@ class TimerForm extends React.Component {
     );
   }
 }
+////////////////////////////////TimerForm////////////////////////////////////
 
 ReactDOM.render(<TimersDashboard />, document.getElementById("content"));
